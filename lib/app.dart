@@ -8,6 +8,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'my_first_app',
       home: HomeScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }

@@ -5,6 +5,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       appBar: AppBar(
         title: Center(child: const Text('My First Project',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 24,color: Colors.white),)),
         backgroundColor: Colors.black,
@@ -13,5 +14,6 @@ class HomeScreen extends StatelessWidget {
         child: Text('This is my first application',style: TextStyle(fontSize: 22),),
       ),
     );
+
   }
 }
